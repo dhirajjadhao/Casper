@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/prajaktakulkarni/Documents/Casper/Build/Products/Debug-iphoneos/Nuke-FLAnimatedImage-Plugin/NukeFLAnimatedImagePlugin.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/prajaktakulkarni/Documents/Casper/Build/Intermediates/Pods.build/Debug-iphoneos/Nuke-FLAnimatedImage-Plugin.build/unextended-module.modulemap',
+    }]
+  }]
+}

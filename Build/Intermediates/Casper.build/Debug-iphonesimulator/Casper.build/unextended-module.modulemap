@@ -1,0 +1,10 @@
+framework module Casper {
+  umbrella header "Casper.h"
+
+  export *
+  module * { export * }
+}
+
+module Casper.__Swift {
+    exclude header "Casper-Swift.h"
+}

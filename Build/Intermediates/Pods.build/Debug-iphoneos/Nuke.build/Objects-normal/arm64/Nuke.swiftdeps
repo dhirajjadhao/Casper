@@ -1,0 +1,209 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Image"
+- "loadImage"
+- "loadImage"
+- "loadImage"
+- "loadImage"
+- "cancelRequest"
+- "Lock"
+provides-nominal:
+- "C4Nuke4Lock"
+provides-member:
+- ["C4Nuke7Manager", ""]
+- ["C4Nuke6Loader", ""]
+- ["C4Nuke5Cache", ""]
+- ["C4Nuke4Lock", ""]
+- ["C4Nuke7Manager", "shared"]
+- ["C4Nuke6Loader", "shared"]
+- ["C4Nuke5Cache", "shared"]
+provides-dynamic-lookup:
+depends-top-level:
+- "pthread_mutex_t"
+- "UnsafeMutablePointer"
+- !private "pthread_mutex_init"
+- !private "pthread_mutex_unlock"
+- "UIImage"
+- "Cache"
+- "Deduplicator"
+- "URL"
+- "AnyObject"
+- "Target"
+- "Manager"
+- "cancelRequest"
+- "DataDecoder"
+- "Loader"
+- !private "pthread_mutex_lock"
+- "Void"
+- "DataLoader"
+- "Image"
+- "loadImage"
+- !private "pthread_mutex_destroy"
+- "Request"
+- "Loading"
+- "Lock"
+depends-member:
+- ["Ps9AnyObject", "Cache"]
+- ["Ps9AnyObject", "DataDecoder"]
+- ["Ps9AnyObject", "DataLoader"]
+- ["Ps9AnyObject", "Deduplicator"]
+- ["Ps9AnyObject", "Handler"]
+- ["Ps9AnyObject", "Loader"]
+- ["Ps9AnyObject", "Manager"]
+- ["Ps9AnyObject", "UnsafeMutablePointer"]
+- !private ["Ps9AnyObject", "cancelRequest"]
+- ["Ps9AnyObject", "deinit"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "loadImage"]
+- !private ["Ps9AnyObject", "mutex"]
+- !private ["Ps9AnyObject", "pthread_mutex_destroy"]
+- !private ["Ps9AnyObject", "pthread_mutex_init"]
+- !private ["Ps9AnyObject", "pthread_mutex_lock"]
+- !private ["Ps9AnyObject", "pthread_mutex_unlock"]
+- ["Ps9AnyObject", "shared"]
+- ["Ps9AnyObject", ""]
+- ["Ps7CVarArg", "allocate"]
+- !private ["Ps7CVarArg", "deallocate"]
+- !private ["Ps7CVarArg", "deinitialize"]
+- ["C4Nuke5Cache", "Cache"]
+- ["C4Nuke5Cache", "deinit"]
+- ["C4Nuke5Cache", "init"]
+- ["C4Nuke5Cache", "shared"]
+- ["P4Nuke7Caching", "Cache"]
+- ["P4Nuke7Caching", "init"]
+- ["P4Nuke7Caching", "shared"]
+- ["Ps10Comparable", "allocate"]
+- !private ["Ps10Comparable", "deallocate"]
+- !private ["Ps10Comparable", "deinitialize"]
+- ["Ps28CustomDebugStringConvertible", "allocate"]
+- !private ["Ps28CustomDebugStringConvertible", "deallocate"]
+- !private ["Ps28CustomDebugStringConvertible", "deinitialize"]
+- ["Ps29CustomPlaygroundQuickLookable", "allocate"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "deallocate"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "deinitialize"]
+- ["Ps17CustomReflectable", "allocate"]
+- !private ["Ps17CustomReflectable", "deallocate"]
+- !private ["Ps17CustomReflectable", "deinitialize"]
+- ["V4Nuke11DataDecoder", "deinit"]
+- ["V4Nuke11DataDecoder", "init"]
+- ["P4Nuke12DataDecoding", "init"]
+- ["C4Nuke10DataLoader", "deinit"]
+- ["C4Nuke10DataLoader", "init"]
+- ["P4Nuke11DataLoading", "init"]
+- ["C4Nuke12Deduplicator", "deinit"]
+- ["C4Nuke12Deduplicator", "init"]
+- ["Ps9Equatable", "allocate"]
+- !private ["Ps9Equatable", "deallocate"]
+- !private ["Ps9Equatable", "deinitialize"]
+- ["Ps8Hashable", "allocate"]
+- !private ["Ps8Hashable", "deallocate"]
+- !private ["Ps8Hashable", "deinitialize"]
+- ["Si", "deinit"]
+- ["Vs5Int32", "deinit"]
+- ["C4Nuke6Loader", "Cache"]
+- ["C4Nuke6Loader", "DataDecoder"]
+- ["C4Nuke6Loader", "DataLoader"]
+- ["C4Nuke6Loader", "Deduplicator"]
+- ["C4Nuke6Loader", "Loader"]
+- ["C4Nuke6Loader", "Loading"]
+- ["C4Nuke6Loader", "deinit"]
+- ["C4Nuke6Loader", "init"]
+- ["C4Nuke6Loader", "shared"]
+- ["P4Nuke7Loading", "Cache"]
+- ["P4Nuke7Loading", "DataDecoder"]
+- ["P4Nuke7Loading", "DataLoader"]
+- ["P4Nuke7Loading", "Deduplicator"]
+- ["P4Nuke7Loading", "Loader"]
+- ["P4Nuke7Loading", "deinit"]
+- ["P4Nuke7Loading", "init"]
+- ["P4Nuke7Loading", "shared"]
+- ["C4Nuke4Lock", "UnsafeMutablePointer"]
+- ["C4Nuke4Lock", "Void"]
+- ["C4Nuke4Lock", "deinit"]
+- ["C4Nuke4Lock", "init"]
+- ["C4Nuke4Lock", "lock"]
+- ["C4Nuke4Lock", "mutex"]
+- !private ["C4Nuke4Lock", "pthread_mutex_destroy"]
+- !private ["C4Nuke4Lock", "pthread_mutex_init"]
+- !private ["C4Nuke4Lock", "pthread_mutex_lock"]
+- ["C4Nuke4Lock", "pthread_mutex_t"]
+- !private ["C4Nuke4Lock", "pthread_mutex_unlock"]
+- ["C4Nuke4Lock", "sync"]
+- ["C4Nuke4Lock", "unlock"]
+- ["C4Nuke7Manager", "Cache"]
+- ["C4Nuke7Manager", "Handler"]
+- ["C4Nuke7Manager", "Loader"]
+- ["C4Nuke7Manager", "Manager"]
+- !private ["C4Nuke7Manager", "cancelRequest"]
+- ["C4Nuke7Manager", "deinit"]
+- ["C4Nuke7Manager", "init"]
+- !private ["C4Nuke7Manager", "loadImage"]
+- ["C4Nuke7Manager", "shared"]
+- ["Sq", "deinit"]
+- ["V4Nuke7Request", "deinit"]
+- ["Ps10Strideable", "allocate"]
+- !private ["Ps10Strideable", "deallocate"]
+- !private ["Ps10Strideable", "deinitialize"]
+- ["P4Nuke6Target", "deinit"]
+- ["V10Foundation3URL", "deinit"]
+- ["Sp", "allocate"]
+- !private ["Sp", "deallocate"]
+- ["Sp", "deinit"]
+- !private ["Sp", "deinitialize"]
+- ["Sv", "deinit"]
+- ["Ps9_Hashable", "allocate"]
+- !private ["Ps9_Hashable", "deallocate"]
+- !private ["Ps9_Hashable", "deinitialize"]
+- ["Ps8_Pointer", "allocate"]
+- !private ["Ps8_Pointer", "deallocate"]
+- !private ["Ps8_Pointer", "deinitialize"]
+- ["Ps11_Strideable", "allocate"]
+- !private ["Ps11_Strideable", "deallocate"]
+- !private ["Ps11_Strideable", "deinitialize"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "C4Nuke5Cache"
+- "P4Nuke7Caching"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "V4Nuke11DataDecoder"
+- "P4Nuke12DataDecoding"
+- "C4Nuke10DataLoader"
+- "P4Nuke11DataLoading"
+- "C4Nuke12Deduplicator"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "Si"
+- "Vs5Int32"
+- "C4Nuke6Loader"
+- "P4Nuke7Loading"
+- "C4Nuke4Lock"
+- "C4Nuke7Manager"
+- "Sq"
+- "V4Nuke7Request"
+- "Ps10Strideable"
+- "P4Nuke6Target"
+- "V10Foundation3URL"
+- "Sp"
+- "Sv"
+- "Ps9_Hashable"
+- "Ps8_Pointer"
+- "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/prajaktakulkarni/Documents/Casper/Pods/Target Support Files/Nuke/Nuke-umbrella.h"
+- "/Users/prajaktakulkarni/Documents/Casper/Build/Intermediates/Pods.build/Debug-iphoneos/Nuke.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "e8b7e8d0e36cc508eb3938d709ee9eb8"

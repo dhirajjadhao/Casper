@@ -1,0 +1,6 @@
+framework module Pods_Casper {
+  umbrella header "Pods-Casper-umbrella.h"
+
+  export *
+  module * { export * }
+}

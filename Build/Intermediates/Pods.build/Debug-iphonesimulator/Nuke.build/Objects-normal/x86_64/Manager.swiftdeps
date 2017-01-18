@@ -1,0 +1,488 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Manager"
+- "Response"
+- "Target"
+- "ImageView"
+provides-nominal:
+- "C4Nuke7Manager"
+- "P4Nuke6Target"
+- "CSo11UIImageView"
+provides-member:
+- ["C4Nuke7Manager", ""]
+- ["P4Nuke6Target", ""]
+- ["CSo11UIImageView", ""]
+- ["C4Nuke7Manager", "loadImage"]
+- ["C4Nuke7Manager", "loadImage"]
+provides-dynamic-lookup:
+depends-top-level:
+- "StringLiteralType"
+- !private "objc_setAssociatedObject"
+- "PromiseResolution"
+- "URL"
+- "ImageView"
+- !private "CALayer"
+- "Target"
+- "Manager"
+- "AnyObject"
+- "Caching"
+- "DispatchQueue"
+- "UIImageView"
+- "CancellationTokenSource"
+- !private "objc_getAssociatedObject"
+- "Bool"
+- !private "contextAK"
+- "Loading"
+- !private "!"
+- !private "CastingPrecedence"
+- !private "Thread"
+- "Request"
+- "AssignmentPrecedence"
+- !private "==="
+- "Void"
+- !private "CABasicAnimation"
+- "Response"
+- "Image"
+- !private "assert"
+depends-member:
+- !private ["Ps9AnyObject", "CABasicAnimation"]
+- !private ["Ps9AnyObject", "CancellationTokenSource"]
+- !private ["Ps9AnyObject", "Context"]
+- ["Ps9AnyObject", "DispatchQueue"]
+- !private ["Ps9AnyObject", "Manager"]
+- !private ["Ps9AnyObject", "Request"]
+- !private ["Ps9AnyObject", "Thread"]
+- !private ["Ps9AnyObject", "add"]
+- !private ["Ps9AnyObject", "assert"]
+- !private ["Ps9AnyObject", "async"]
+- !private ["Ps9AnyObject", "cache"]
+- !private ["Ps9AnyObject", "cancel"]
+- !private ["Ps9AnyObject", "cancelRequest"]
+- !private ["Ps9AnyObject", "completion"]
+- !private ["Ps9AnyObject", "contextAK"]
+- !private ["Ps9AnyObject", "cts"]
+- ["Ps9AnyObject", "deinit"]
+- !private ["Ps9AnyObject", "duration"]
+- !private ["Ps9AnyObject", "fromValue"]
+- !private ["Ps9AnyObject", "getContext"]
+- ["Ps9AnyObject", "handle"]
+- !private ["Ps9AnyObject", "image"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isCancelling"]
+- !private ["Ps9AnyObject", "isMainThread"]
+- !private ["Ps9AnyObject", "layer"]
+- !private ["Ps9AnyObject", "loadImage"]
+- !private ["Ps9AnyObject", "loader"]
+- !private ["Ps9AnyObject", "lock"]
+- !private ["Ps9AnyObject", "objc_getAssociatedObject"]
+- !private ["Ps9AnyObject", "objc_setAssociatedObject"]
+- !private ["Ps9AnyObject", "queue"]
+- !private ["Ps9AnyObject", "setContext"]
+- !private ["Ps9AnyObject", "toValue"]
+- !private ["Ps9AnyObject", "token"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["PSo8CAAction", "duration"]
+- !private ["PSo8CAAction", "fromValue"]
+- !private ["PSo8CAAction", "init"]
+- !private ["PSo8CAAction", "toValue"]
+- !private ["CSo11CAAnimation", "duration"]
+- !private ["CSo11CAAnimation", "fromValue"]
+- !private ["CSo11CAAnimation", "init"]
+- !private ["CSo11CAAnimation", "toValue"]
+- ["CSo16CABasicAnimation", "deinit"]
+- !private ["CSo16CABasicAnimation", "duration"]
+- !private ["CSo16CABasicAnimation", "fromValue"]
+- !private ["CSo16CABasicAnimation", "init"]
+- !private ["CSo16CABasicAnimation", "toValue"]
+- !private ["CSo7CALayer", "add"]
+- ["CSo7CALayer", "deinit"]
+- !private ["PSo15CALayerDelegate", "CABasicAnimation"]
+- ["PSo15CALayerDelegate", "handle"]
+- !private ["PSo15CALayerDelegate", "image"]
+- !private ["PSo15CALayerDelegate", "layer"]
+- !private ["PSo13CAMediaTiming", "add"]
+- !private ["PSo13CAMediaTiming", "duration"]
+- !private ["PSo13CAMediaTiming", "fromValue"]
+- !private ["PSo13CAMediaTiming", "init"]
+- !private ["PSo13CAMediaTiming", "toValue"]
+- !private ["CSo19CAPropertyAnimation", "duration"]
+- !private ["CSo19CAPropertyAnimation", "fromValue"]
+- !private ["CSo19CAPropertyAnimation", "init"]
+- !private ["CSo19CAPropertyAnimation", "toValue"]
+- !private ["Ps7CVarArg", "CABasicAnimation"]
+- !private ["Ps7CVarArg", "add"]
+- !private ["Ps7CVarArg", "async"]
+- !private ["Ps7CVarArg", "duration"]
+- !private ["Ps7CVarArg", "fromValue"]
+- ["Ps7CVarArg", "handle"]
+- !private ["Ps7CVarArg", "image"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isMainThread"]
+- !private ["Ps7CVarArg", "layer"]
+- !private ["Ps7CVarArg", "toValue"]
+- ["P4Nuke7Caching", "deinit"]
+- !private ["P4Nuke7Caching", "subscript"]
+- !private ["V4Nuke17CancellationToken", "deinit"]
+- !private ["C4Nuke23CancellationTokenSource", "cancel"]
+- ["C4Nuke23CancellationTokenSource", "deinit"]
+- !private ["C4Nuke23CancellationTokenSource", "init"]
+- !private ["C4Nuke23CancellationTokenSource", "isCancelling"]
+- !private ["C4Nuke23CancellationTokenSource", "lock"]
+- !private ["C4Nuke23CancellationTokenSource", "token"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CABasicAnimation"]
+- !private ["Ps28CustomDebugStringConvertible", "add"]
+- !private ["Ps28CustomDebugStringConvertible", "async"]
+- !private ["Ps28CustomDebugStringConvertible", "duration"]
+- !private ["Ps28CustomDebugStringConvertible", "fromValue"]
+- ["Ps28CustomDebugStringConvertible", "handle"]
+- !private ["Ps28CustomDebugStringConvertible", "image"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isMainThread"]
+- !private ["Ps28CustomDebugStringConvertible", "layer"]
+- !private ["Ps28CustomDebugStringConvertible", "toValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "CABasicAnimation"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "add"]
+- !private ["Ps23CustomStringConvertible", "async"]
+- !private ["Ps23CustomStringConvertible", "duration"]
+- !private ["Ps23CustomStringConvertible", "fromValue"]
+- ["Ps23CustomStringConvertible", "handle"]
+- !private ["Ps23CustomStringConvertible", "image"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isMainThread"]
+- !private ["Ps23CustomStringConvertible", "layer"]
+- !private ["Ps23CustomStringConvertible", "toValue"]
+- !private ["CSo14DispatchObject", "async"]
+- ["CSo14DispatchObject", "init"]
+- !private ["CSo13DispatchQueue", "async"]
+- ["CSo13DispatchQueue", "deinit"]
+- ["CSo13DispatchQueue", "init"]
+- ["Sd", "deinit"]
+- !private ["Ps9Equatable", "CABasicAnimation"]
+- !private ["Ps9Equatable", "OBJC_ASSOCIATION_RETAIN"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "add"]
+- !private ["Ps9Equatable", "async"]
+- !private ["Ps9Equatable", "duration"]
+- !private ["Ps9Equatable", "fromValue"]
+- ["Ps9Equatable", "handle"]
+- !private ["Ps9Equatable", "image"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isMainThread"]
+- !private ["Ps9Equatable", "layer"]
+- !private ["Ps9Equatable", "toValue"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "CABasicAnimation"]
+- !private ["Ps8Hashable", "OBJC_ASSOCIATION_RETAIN"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "add"]
+- !private ["Ps8Hashable", "async"]
+- !private ["Ps8Hashable", "duration"]
+- !private ["Ps8Hashable", "fromValue"]
+- ["Ps8Hashable", "handle"]
+- !private ["Ps8Hashable", "image"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isMainThread"]
+- !private ["Ps8Hashable", "layer"]
+- !private ["Ps8Hashable", "toValue"]
+- !private ["SQ", "deinit"]
+- ["Si", "deinit"]
+- ["P4Nuke7Loading", "deinit"]
+- !private ["P4Nuke7Loading", "loadImage"]
+- ["C4Nuke4Lock", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["C4Nuke7Manager", "AnyObject"]
+- ["C4Nuke7Manager", "Bool"]
+- ["C4Nuke7Manager", "Caching"]
+- ["C4Nuke7Manager", "CancellationTokenSource"]
+- !private ["C4Nuke7Manager", "Context"]
+- ["C4Nuke7Manager", "DispatchQueue"]
+- ["C4Nuke7Manager", "Handler"]
+- ["C4Nuke7Manager", "Loading"]
+- !private ["C4Nuke7Manager", "Manager"]
+- ["C4Nuke7Manager", "Request"]
+- ["C4Nuke7Manager", "Response"]
+- ["C4Nuke7Manager", "Target"]
+- !private ["C4Nuke7Manager", "Thread"]
+- ["C4Nuke7Manager", "URL"]
+- ["C4Nuke7Manager", "Void"]
+- !private ["C4Nuke7Manager", "assert"]
+- ["C4Nuke7Manager", "cache"]
+- ["C4Nuke7Manager", "cancelRequest"]
+- !private ["C4Nuke7Manager", "contextAK"]
+- ["C4Nuke7Manager", "deinit"]
+- !private ["C4Nuke7Manager", "getContext"]
+- ["C4Nuke7Manager", "init"]
+- ["C4Nuke7Manager", "loadImage"]
+- ["C4Nuke7Manager", "loader"]
+- !private ["C4Nuke7Manager", "objc_getAssociatedObject"]
+- !private ["C4Nuke7Manager", "objc_setAssociatedObject"]
+- !private ["C4Nuke7Manager", "queue"]
+- !private ["C4Nuke7Manager", "setContext"]
+- ["VV4Nuke7Request18MemoryCacheOptions", "deinit"]
+- !private ["VV4Nuke7Request18MemoryCacheOptions", "readAllowed"]
+- ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "CABasicAnimation"]
+- !private ["PSo8NSCoding", "add"]
+- !private ["PSo8NSCoding", "duration"]
+- !private ["PSo8NSCoding", "fromValue"]
+- ["PSo8NSCoding", "handle"]
+- !private ["PSo8NSCoding", "image"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "layer"]
+- !private ["PSo8NSCoding", "toValue"]
+- !private ["PSo9NSCopying", "duration"]
+- !private ["PSo9NSCopying", "fromValue"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "toValue"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "CABasicAnimation"]
+- !private ["CSo8NSObject", "CALayer"]
+- ["CSo8NSObject", "Response"]
+- !private ["CSo8NSObject", "add"]
+- !private ["CSo8NSObject", "async"]
+- !private ["CSo8NSObject", "duration"]
+- !private ["CSo8NSObject", "fromValue"]
+- ["CSo8NSObject", "handle"]
+- !private ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isMainThread"]
+- !private ["CSo8NSObject", "layer"]
+- !private ["CSo8NSObject", "toValue"]
+- !private ["PSo16NSObjectProtocol", "CABasicAnimation"]
+- !private ["PSo16NSObjectProtocol", "add"]
+- !private ["PSo16NSObjectProtocol", "async"]
+- !private ["PSo16NSObjectProtocol", "duration"]
+- !private ["PSo16NSObjectProtocol", "fromValue"]
+- ["PSo16NSObjectProtocol", "handle"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isMainThread"]
+- !private ["PSo16NSObjectProtocol", "layer"]
+- !private ["PSo16NSObjectProtocol", "toValue"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- !private ["CSo9OS_object", "async"]
+- ["CSo9OS_object", "init"]
+- ["Sq", "deinit"]
+- !private ["C4Nuke7Promise", "completion"]
+- !private ["C4Nuke7Promise", "deinit"]
+- ["O4Nuke17PromiseResolution", "deinit"]
+- ["O4Nuke17PromiseResolution", "fulfilled"]
+- ["O4Nuke17PromiseResolution", "rejected"]
+- !private ["Ps16RawRepresentable", "OBJC_ASSOCIATION_RETAIN"]
+- ["V4Nuke7Request", "deinit"]
+- !private ["V4Nuke7Request", "init"]
+- !private ["V4Nuke7Request", "memoryCacheOptions"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["P4Nuke6Target", "Bool"]
+- !private ["P4Nuke6Target", "CABasicAnimation"]
+- ["P4Nuke6Target", "Response"]
+- ["P4Nuke6Target", "deinit"]
+- ["P4Nuke6Target", "handle"]
+- !private ["P4Nuke6Target", "image"]
+- !private ["P4Nuke6Target", "layer"]
+- ["P4Nuke6Target", ""]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["CSo6Thread", "isMainThread"]
+- !private ["PSo29UIAccessibilityIdentification", "CABasicAnimation"]
+- ["PSo29UIAccessibilityIdentification", "handle"]
+- !private ["PSo29UIAccessibilityIdentification", "image"]
+- !private ["PSo29UIAccessibilityIdentification", "layer"]
+- !private ["PSo12UIAppearance", "CABasicAnimation"]
+- ["PSo12UIAppearance", "handle"]
+- !private ["PSo12UIAppearance", "image"]
+- !private ["PSo12UIAppearance", "layer"]
+- !private ["PSo21UIAppearanceContainer", "CABasicAnimation"]
+- ["PSo21UIAppearanceContainer", "handle"]
+- !private ["PSo21UIAppearanceContainer", "image"]
+- !private ["PSo21UIAppearanceContainer", "layer"]
+- !private ["PSo17UICoordinateSpace", "CABasicAnimation"]
+- ["PSo17UICoordinateSpace", "handle"]
+- !private ["PSo17UICoordinateSpace", "image"]
+- !private ["PSo17UICoordinateSpace", "layer"]
+- !private ["PSo13UIDynamicItem", "CABasicAnimation"]
+- ["PSo13UIDynamicItem", "handle"]
+- !private ["PSo13UIDynamicItem", "image"]
+- !private ["PSo13UIDynamicItem", "layer"]
+- !private ["PSo18UIFocusEnvironment", "CABasicAnimation"]
+- ["PSo18UIFocusEnvironment", "handle"]
+- !private ["PSo18UIFocusEnvironment", "image"]
+- !private ["PSo18UIFocusEnvironment", "layer"]
+- !private ["PSo11UIFocusItem", "CABasicAnimation"]
+- ["PSo11UIFocusItem", "handle"]
+- !private ["PSo11UIFocusItem", "image"]
+- !private ["PSo11UIFocusItem", "layer"]
+- ["CSo7UIImage", "deinit"]
+- ["CSo11UIImageView", "Bool"]
+- !private ["CSo11UIImageView", "CABasicAnimation"]
+- !private ["CSo11UIImageView", "CALayer"]
+- ["CSo11UIImageView", "Response"]
+- ["CSo11UIImageView", "deinit"]
+- ["CSo11UIImageView", "handle"]
+- !private ["CSo11UIImageView", "image"]
+- !private ["CSo11UIImageView", "layer"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "CABasicAnimation"]
+- !private ["CSo11UIResponder", "CALayer"]
+- ["CSo11UIResponder", "Response"]
+- ["CSo11UIResponder", "handle"]
+- !private ["CSo11UIResponder", "image"]
+- !private ["CSo11UIResponder", "layer"]
+- !private ["PSo30UIResponderStandardEditActions", "CABasicAnimation"]
+- ["PSo30UIResponderStandardEditActions", "handle"]
+- !private ["PSo30UIResponderStandardEditActions", "image"]
+- !private ["PSo30UIResponderStandardEditActions", "layer"]
+- !private ["PSo18UITraitEnvironment", "CABasicAnimation"]
+- ["PSo18UITraitEnvironment", "handle"]
+- !private ["PSo18UITraitEnvironment", "image"]
+- !private ["PSo18UITraitEnvironment", "layer"]
+- ["CSo6UIView", "Bool"]
+- !private ["CSo6UIView", "CABasicAnimation"]
+- !private ["CSo6UIView", "CALayer"]
+- ["CSo6UIView", "Response"]
+- ["CSo6UIView", "handle"]
+- !private ["CSo6UIView", "image"]
+- !private ["CSo6UIView", "layer"]
+- ["Su", "deinit"]
+- ["V10Foundation3URL", "deinit"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "CABasicAnimation"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "handle"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "image"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "layer"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "CABasicAnimation"]
+- !private ["Ps9_Hashable", "OBJC_ASSOCIATION_RETAIN"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "add"]
+- !private ["Ps9_Hashable", "async"]
+- !private ["Ps9_Hashable", "duration"]
+- !private ["Ps9_Hashable", "fromValue"]
+- ["Ps9_Hashable", "handle"]
+- !private ["Ps9_Hashable", "image"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isMainThread"]
+- !private ["Ps9_Hashable", "layer"]
+- !private ["Ps9_Hashable", "toValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["OSC22objc_AssociationPolicy", "OBJC_ASSOCIATION_RETAIN"]
+- !private ["OSC22objc_AssociationPolicy", "deinit"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- !private "PSo8CAAction"
+- !private "CSo11CAAnimation"
+- "CSo16CABasicAnimation"
+- "CSo7CALayer"
+- "PSo15CALayerDelegate"
+- !private "PSo13CAMediaTiming"
+- !private "CSo19CAPropertyAnimation"
+- "Ps7CVarArg"
+- "P4Nuke7Caching"
+- !private "V4Nuke17CancellationToken"
+- "C4Nuke23CancellationTokenSource"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "CSo14DispatchObject"
+- "CSo13DispatchQueue"
+- "Sd"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "SQ"
+- "Si"
+- "P4Nuke7Loading"
+- "C4Nuke4Lock"
+- "Ps25LosslessStringConvertible"
+- "C4Nuke7Manager"
+- "VV4Nuke7Request18MemoryCacheOptions"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "CSo9OS_object"
+- "Sq"
+- !private "C4Nuke7Promise"
+- "O4Nuke17PromiseResolution"
+- !private "Ps16RawRepresentable"
+- "V4Nuke7Request"
+- "Vs12StaticString"
+- "SS"
+- "P4Nuke6Target"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "CSo6Thread"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo7UIImage"
+- "CSo11UIImageView"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Su"
+- "V10Foundation3URL"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "OSC22objc_AssociationPolicy"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/prajaktakulkarni/Documents/Casper/Pods/Target Support Files/Nuke/Nuke-umbrella.h"
+- "/Users/prajaktakulkarni/Documents/Casper/Build/Intermediates/Pods.build/Debug-iphonesimulator/Nuke.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "95113ee0c17f9029a5fcc1c203da2375"

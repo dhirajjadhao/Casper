@@ -1,0 +1,8 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "ca1f65e2dedb8c42c3e75f7998de42d9"
+build_time: [538079303, 187468000]
+inputs:
+  "/Users/prajaktakulkarni/Documents/Casper/Pods/QRCode/QRCode/CIColorExtension.swift": [538073945, 0]
+  "/Users/prajaktakulkarni/Documents/Casper/Pods/QRCode/QRCode/CIImageExtension.swift": [538073945, 0]
+  "/Users/prajaktakulkarni/Documents/Casper/Pods/QRCode/QRCode/QRCode.swift": [538073945, 0]
+  "/Users/prajaktakulkarni/Documents/Casper/Pods/QRCode/QRCode/UIImageViewExtension.swift": [538073945, 0]

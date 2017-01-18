@@ -1,0 +1,205 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/prajaktakulkarni/Documents/Casper/Build/Products/Debug-iphoneos/Casper/Casper.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Casper-Swift.h",
+          'external-contents': "/Users/prajaktakulkarni/Documents/Casper/Build/Products/Debug-iphoneos/Casper/Casper.framework/Headers/Casper-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Casper-umbrella.h",
+          'external-contents': "/Users/prajaktakulkarni/Documents/Casper/Pods/Target Support Files/Casper/Casper-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/prajaktakulkarni/Documents/Casper/Build/Products/Debug-iphoneos/Casper/Casper.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/prajaktakulkarni/Documents/Casper/Build/Intermediates/Pods.build/Debug-iphoneos/Casper.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/prajaktakulkarni/Documents/Casper/Build/Products/Debug-iphoneos/Eureka/Eureka.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Eureka-Swift.h",
+          'external-contents': "/Users/prajaktakulkarni/Documents/Casper/Build/Products/Debug-iphoneos/Eureka/Eureka.framework/Headers/Eureka-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Eureka-umbrella.h",
+          'external-contents': "/Users/prajaktakulkarni/Documents/Casper/Pods/Target Support Files/Eureka/Eureka-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/prajaktakulkarni/Documents/Casper/Build/Products/Debug-iphoneos/Eureka/Eureka.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/prajaktakulkarni/Documents/Casper/Build/Intermediates/Pods.build/Debug-iphoneos/Eureka.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/prajaktakulkarni/Documents/Casper/Build/Products/Debug-iphoneos/FLAnimatedImage/FLAnimatedImage.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FLAnimatedImage-Swift.h",
+          'external-contents': "/Users/prajaktakulkarni/Documents/Casper/Build/Products/Debug-iphoneos/FLAnimatedImage/FLAnimatedImage.framework/Headers/FLAnimatedImage-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "FLAnimatedImage-umbrella.h",
+          'external-contents': "/Users/prajaktakulkarni/Documents/Casper/Pods/Target Support Files/FLAnimatedImage/FLAnimatedImage-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "FLAnimatedImage.h",
+          'external-contents': "/Users/prajaktakulkarni/Documents/Casper/Pods/FLAnimatedImage/FLAnimatedImage/FLAnimatedImage.h"
+        },
+        {
+          'type': 'file',
+          'name': "FLAnimatedImageView.h",
+          'external-contents': "/Users/prajaktakulkarni/Documents/Casper/Pods/FLAnimatedImage/FLAnimatedImage/FLAnimatedImageView.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/prajaktakulkarni/Documents/Casper/Build/Products/Debug-iphoneos/FLAnimatedImage/FLAnimatedImage.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/prajaktakulkarni/Documents/Casper/Build/Intermediates/Pods.build/Debug-iphoneos/FLAnimatedImage.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/prajaktakulkarni/Documents/Casper/Build/Products/Debug-iphoneos/Nuke-FLAnimatedImage-Plugin/NukeFLAnimatedImagePlugin.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Nuke-FLAnimatedImage-Plugin-umbrella.h",
+          'external-contents': "/Users/prajaktakulkarni/Documents/Casper/Pods/Target Support Files/Nuke-FLAnimatedImage-Plugin/Nuke-FLAnimatedImage-Plugin-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "NukeFLAnimatedImagePlugin-Swift.h",
+          'external-contents': "/Users/prajaktakulkarni/Documents/Casper/Build/Products/Debug-iphoneos/Nuke-FLAnimatedImage-Plugin/NukeFLAnimatedImagePlugin.framework/Headers/NukeFLAnimatedImagePlugin-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/prajaktakulkarni/Documents/Casper/Build/Products/Debug-iphoneos/Nuke-FLAnimatedImage-Plugin/NukeFLAnimatedImagePlugin.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/prajaktakulkarni/Documents/Casper/Build/Intermediates/Pods.build/Debug-iphoneos/Nuke-FLAnimatedImage-Plugin.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/prajaktakulkarni/Documents/Casper/Build/Products/Debug-iphoneos/Nuke/Nuke.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Nuke-Swift.h",
+          'external-contents': "/Users/prajaktakulkarni/Documents/Casper/Build/Products/Debug-iphoneos/Nuke/Nuke.framework/Headers/Nuke-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Nuke-umbrella.h",
+          'external-contents': "/Users/prajaktakulkarni/Documents/Casper/Pods/Target Support Files/Nuke/Nuke-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/prajaktakulkarni/Documents/Casper/Build/Products/Debug-iphoneos/Nuke/Nuke.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/prajaktakulkarni/Documents/Casper/Build/Intermediates/Pods.build/Debug-iphoneos/Nuke.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/prajaktakulkarni/Documents/Casper/Build/Products/Debug-iphoneos/Pods_Casper_Example.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Casper Example-umbrella.h",
+          'external-contents': "/Users/prajaktakulkarni/Documents/Casper/Pods/Target Support Files/Pods-Casper Example/Pods-Casper Example-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Casper_Example-Swift.h",
+          'external-contents': "/Users/prajaktakulkarni/Documents/Casper/Build/Products/Debug-iphoneos/Pods_Casper_Example.framework/Headers/Pods_Casper_Example-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/prajaktakulkarni/Documents/Casper/Build/Products/Debug-iphoneos/Pods_Casper_Example.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/prajaktakulkarni/Documents/Casper/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-Casper Example.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/prajaktakulkarni/Documents/Casper/Build/Products/Debug-iphoneos/QRCode/QRCode.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "QRCode-Swift.h",
+          'external-contents': "/Users/prajaktakulkarni/Documents/Casper/Build/Products/Debug-iphoneos/QRCode/QRCode.framework/Headers/QRCode-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "QRCode-umbrella.h",
+          'external-contents': "/Users/prajaktakulkarni/Documents/Casper/Pods/Target Support Files/QRCode/QRCode-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/prajaktakulkarni/Documents/Casper/Build/Products/Debug-iphoneos/QRCode/QRCode.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/prajaktakulkarni/Documents/Casper/Build/Intermediates/Pods.build/Debug-iphoneos/QRCode.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

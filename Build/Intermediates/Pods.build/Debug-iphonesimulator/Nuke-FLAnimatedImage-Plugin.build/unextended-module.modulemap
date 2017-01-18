@@ -1,0 +1,10 @@
+framework module NukeFLAnimatedImagePlugin {
+  umbrella header "Nuke-FLAnimatedImage-Plugin-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module NukeFLAnimatedImagePlugin.__Swift {
+    exclude header "NukeFLAnimatedImagePlugin-Swift.h"
+}

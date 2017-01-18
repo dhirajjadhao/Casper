@@ -1,0 +1,10 @@
+framework module Nuke {
+  umbrella header "Nuke-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Nuke.__Swift {
+    exclude header "Nuke-Swift.h"
+}

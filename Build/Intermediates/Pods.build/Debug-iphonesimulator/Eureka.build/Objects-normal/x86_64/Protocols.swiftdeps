@@ -1,0 +1,45 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FormatterConformance"
+- "NoValueDisplayTextConformance"
+provides-nominal:
+- "P6Eureka20FormatterConformance"
+- "P6Eureka29NoValueDisplayTextConformance"
+provides-member:
+- ["P6Eureka20FormatterConformance", ""]
+- ["P6Eureka29NoValueDisplayTextConformance", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- "String"
+- "Formatter"
+- "NoValueDisplayTextConformance"
+- "FormatterConformance"
+depends-member:
+- ["P6Eureka20FormatterConformance", "Bool"]
+- ["P6Eureka20FormatterConformance", "Formatter"]
+- ["P6Eureka20FormatterConformance", "formatter"]
+- ["P6Eureka20FormatterConformance", "useFormatterDuringInput"]
+- ["P6Eureka20FormatterConformance", "useFormatterOnDidBeginEditing"]
+- ["P6Eureka20FormatterConformance", ""]
+- ["P6Eureka29NoValueDisplayTextConformance", "String"]
+- ["P6Eureka29NoValueDisplayTextConformance", "noValueDisplayText"]
+- ["P6Eureka29NoValueDisplayTextConformance", ""]
+depends-nominal:
+- "P6Eureka20FormatterConformance"
+- "P6Eureka29NoValueDisplayTextConformance"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/prajaktakulkarni/Documents/Casper/Pods/Target Support Files/Eureka/Eureka-umbrella.h"
+- "/Users/prajaktakulkarni/Documents/Casper/Build/Intermediates/Pods.build/Debug-iphonesimulator/Eureka.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "2cdcf41e0ef46400c8388f1102502e10"

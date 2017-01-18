@@ -1,0 +1,274 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Deduplicator"
+provides-nominal:
+- "C4Nuke12Deduplicator"
+provides-member:
+- ["C4Nuke12Deduplicator", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "-="
+- !private "+="
+- "Request"
+- "StringLiteralType"
+- !private "==="
+- "Loading"
+- "AssignmentPrecedence"
+- "DispatchQueue"
+- !private "=="
+- "CancellationTokenSource"
+- "CancellationToken"
+- "Image"
+- "Deduplicator"
+- "Promise"
+- "AnyHashable"
+depends-member:
+- !private ["Vs11AnyHashable", "deinit"]
+- ["Ps9AnyObject", "AnyHashable"]
+- !private ["Ps9AnyObject", "CancellationTokenSource"]
+- ["Ps9AnyObject", "DispatchQueue"]
+- !private ["Ps9AnyObject", "Request"]
+- ["Ps9AnyObject", "Task"]
+- !private ["Ps9AnyObject", "async"]
+- !private ["Ps9AnyObject", "cancel"]
+- !private ["Ps9AnyObject", "completion"]
+- !private ["Ps9AnyObject", "cts"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "loadImage"]
+- !private ["Ps9AnyObject", "loader"]
+- !private ["Ps9AnyObject", "promise"]
+- !private ["Ps9AnyObject", "queue"]
+- !private ["Ps9AnyObject", "remove"]
+- !private ["Ps9AnyObject", "retainCount"]
+- !private ["Ps9AnyObject", "sync"]
+- !private ["Ps9AnyObject", "tasks"]
+- !private ["Ps9AnyObject", "token"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "async"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "sync"]
+- !private ["V4Nuke17CancellationToken", "deinit"]
+- !private ["V4Nuke17CancellationToken", "register"]
+- !private ["C4Nuke23CancellationTokenSource", "cancel"]
+- ["C4Nuke23CancellationTokenSource", "deinit"]
+- !private ["C4Nuke23CancellationTokenSource", "init"]
+- !private ["C4Nuke23CancellationTokenSource", "token"]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "_Element"]
+- ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "subscript"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "async"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "sync"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "async"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "sync"]
+- ["C4Nuke12Deduplicator", "AnyHashable"]
+- ["C4Nuke12Deduplicator", "CancellationToken"]
+- ["C4Nuke12Deduplicator", "CancellationTokenSource"]
+- ["C4Nuke12Deduplicator", "DispatchQueue"]
+- ["C4Nuke12Deduplicator", "Image"]
+- ["C4Nuke12Deduplicator", "Loading"]
+- ["C4Nuke12Deduplicator", "Promise"]
+- ["C4Nuke12Deduplicator", "Request"]
+- ["C4Nuke12Deduplicator", "Task"]
+- !private ["C4Nuke12Deduplicator", "cancel"]
+- ["C4Nuke12Deduplicator", "deinit"]
+- ["C4Nuke12Deduplicator", "init"]
+- ["C4Nuke12Deduplicator", "loadImage"]
+- !private ["C4Nuke12Deduplicator", "loader"]
+- !private ["C4Nuke12Deduplicator", "queue"]
+- !private ["C4Nuke12Deduplicator", "remove"]
+- !private ["C4Nuke12Deduplicator", "tasks"]
+- ["Vs10Dictionary", "deinit"]
+- ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["CSo14DispatchObject", "async"]
+- ["CSo14DispatchObject", "init"]
+- !private ["CSo14DispatchObject", "sync"]
+- !private ["CSo13DispatchQueue", "async"]
+- ["CSo13DispatchQueue", "deinit"]
+- ["CSo13DispatchQueue", "init"]
+- !private ["CSo13DispatchQueue", "sync"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "async"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "sync"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "async"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "sync"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "_Element"]
+- ["Ps13IndexableBase", "init"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- ["Si", "deinit"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- ["P4Nuke7Loading", "AnyHashable"]
+- !private ["P4Nuke7Loading", "CancellationTokenSource"]
+- ["P4Nuke7Loading", "DispatchQueue"]
+- !private ["P4Nuke7Loading", "Request"]
+- ["P4Nuke7Loading", "Task"]
+- !private ["P4Nuke7Loading", "cancel"]
+- ["P4Nuke7Loading", "deinit"]
+- ["P4Nuke7Loading", "loadImage"]
+- !private ["P4Nuke7Loading", "loader"]
+- !private ["P4Nuke7Loading", "queue"]
+- !private ["P4Nuke7Loading", "remove"]
+- !private ["P4Nuke7Loading", "tasks"]
+- ["P4Nuke7Loading", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "async"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "sync"]
+- !private ["PSo16NSObjectProtocol", "async"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "sync"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- !private ["CSo9OS_object", "async"]
+- ["CSo9OS_object", "init"]
+- !private ["CSo9OS_object", "sync"]
+- !private ["Sq", "deinit"]
+- !private ["C4Nuke7Promise", "completion"]
+- ["C4Nuke7Promise", "deinit"]
+- !private ["V4Nuke7Request", "deinit"]
+- !private ["V4Nuke7Request", "loadKey"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "_Element"]
+- ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "async"]
+- !private ["Ps9_Hashable", "deinit"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "sync"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+depends-nominal:
+- !private "Vs11AnyHashable"
+- "Ps9AnyObject"
+- !private "Sb"
+- "Ps7CVarArg"
+- !private "V4Nuke17CancellationToken"
+- "C4Nuke23CancellationTokenSource"
+- "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "C4Nuke12Deduplicator"
+- "Vs10Dictionary"
+- "CSo14DispatchObject"
+- "CSo13DispatchQueue"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- "Si"
+- !private "Ps16IteratorProtocol"
+- "P4Nuke7Loading"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "CSo9OS_object"
+- !private "Sq"
+- "C4Nuke7Promise"
+- !private "V4Nuke7Request"
+- "Ps8Sequence"
+- !private "Vs5Slice"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/prajaktakulkarni/Documents/Casper/Pods/Target Support Files/Nuke/Nuke-umbrella.h"
+- "/Users/prajaktakulkarni/Documents/Casper/Build/Intermediates/Pods.build/Debug-iphoneos/Nuke.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "af68472b5f55a9ea022ea8851881611b"

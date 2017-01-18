@@ -1,0 +1,138 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FormPrecedence"
+- "SectionPrecedence"
+- "+++"
+- "+++"
+- "+++"
+- "+++"
+- "+++"
+- "+++"
+- "<<<"
+- "<<<"
+- "<<<"
+- "+="
+- "+="
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- "<<<"
+- "Section"
+- "+++"
+- "LogicalConjunctionPrecedence"
+- "Collection"
+- "Form"
+- "+="
+- "BaseRow"
+depends-member:
+- !private ["Ps9AnyObject", "Iterator"]
+- !private ["Ps9AnyObject", "_Element"]
+- !private ["Ps9AnyObject", "append"]
+- !private ["Ps9AnyObject", "init"]
+- ["C6Eureka7BaseRow", "deinit"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "append"]
+- !private ["Ps22BidirectionalIndexable", "init"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps9Equatable", "Iterator"]
+- !private ["Ps9Equatable", "_Element"]
+- !private ["Ps9Equatable", "append"]
+- !private ["Ps9Equatable", "init"]
+- !private ["C6Eureka4Form", "Iterator"]
+- !private ["C6Eureka4Form", "_Element"]
+- !private ["C6Eureka4Form", "append"]
+- ["C6Eureka4Form", "deinit"]
+- !private ["C6Eureka4Form", "init"]
+- !private ["P6Eureka7Hidable", "Iterator"]
+- !private ["P6Eureka7Hidable", "_Element"]
+- !private ["P6Eureka7Hidable", "append"]
+- !private ["P6Eureka7Hidable", "init"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "append"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "append"]
+- !private ["Ps13IndexableBase", "init"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "append"]
+- !private ["Ps16MutableIndexable", "init"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "append"]
+- !private ["Ps25RangeReplaceableIndexable", "init"]
+- !private ["C6Eureka7Section", "Iterator"]
+- !private ["C6Eureka7Section", "_Element"]
+- !private ["C6Eureka7Section", "append"]
+- ["C6Eureka7Section", "deinit"]
+- !private ["C6Eureka7Section", "init"]
+- !private ["P6Eureka15SectionDelegate", "Iterator"]
+- !private ["P6Eureka15SectionDelegate", "_Element"]
+- !private ["P6Eureka15SectionDelegate", "append"]
+- !private ["P6Eureka15SectionDelegate", "init"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "init"]
+- !private ["P6Eureka8Taggable", "Iterator"]
+- !private ["P6Eureka8Taggable", "_Element"]
+- !private ["P6Eureka8Taggable", "append"]
+- !private ["P6Eureka8Taggable", "init"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "C6Eureka7BaseRow"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Ps10Collection"
+- !private "Ps9Equatable"
+- "C6Eureka4Form"
+- !private "P6Eureka7Hidable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Ps16IteratorProtocol"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- "C6Eureka7Section"
+- !private "P6Eureka15SectionDelegate"
+- !private "Ps8Sequence"
+- !private "P6Eureka8Taggable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/prajaktakulkarni/Documents/Casper/Pods/Target Support Files/Eureka/Eureka-umbrella.h"
+- "/Users/prajaktakulkarni/Documents/Casper/Build/Intermediates/Pods.build/Debug-iphoneos/Eureka.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "5c671622e98dcec978f47a6291228cdf"

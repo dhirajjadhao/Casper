@@ -1,0 +1,361 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Loading"
+- "Loader"
+- "=="
+provides-nominal:
+- "P4Nuke7Loading"
+- "C4Nuke6Loader"
+- "VC4Nuke6Loader10Schedulers"
+- "OC4Nuke6Loader5Error"
+provides-member:
+- ["P4Nuke7Loading", ""]
+- ["C4Nuke6Loader", ""]
+- ["VC4Nuke6Loader10Schedulers", ""]
+- ["OC4Nuke6Loader5Error", ""]
+- ["P4Nuke7Loading", "loadImage"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Caching"
+- "Request"
+- "Loading"
+- "DataDecoding"
+- "Loader"
+- "Scheduler"
+- "StringLiteralType"
+- "Promise"
+- !private "URLResponse"
+- "DispatchQueueScheduler"
+- "AnyProcessor"
+- "Swift"
+- "Image"
+- "=="
+- "AssignmentPrecedence"
+- "URL"
+- "DispatchQueue"
+- "DataLoading"
+- "CancellationToken"
+- !private "Data"
+depends-member:
+- ["Ps9AnyObject", "DispatchQueue"]
+- ["Ps9AnyObject", "DispatchQueueScheduler"]
+- !private ["Ps9AnyObject", "Error"]
+- !private ["Ps9AnyObject", "Promise"]
+- !private ["Ps9AnyObject", "Schedulers"]
+- !private ["Ps9AnyObject", "cache"]
+- !private ["Ps9AnyObject", "decode"]
+- !private ["Ps9AnyObject", "decoder"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "loadImage"]
+- !private ["Ps9AnyObject", "loader"]
+- !private ["Ps9AnyObject", "makeProcessor"]
+- !private ["Ps9AnyObject", "process"]
+- !private ["Ps9AnyObject", "promise"]
+- !private ["Ps9AnyObject", "queue"]
+- !private ["Ps9AnyObject", "schedulers"]
+- !private ["Ps9AnyObject", "sync"]
+- !private ["Ps9AnyObject", "then"]
+- ["Ps9AnyObject", ""]
+- !private ["V4Nuke12AnyProcessor", "deinit"]
+- !private ["V4Nuke12AnyProcessor", "process"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "sync"]
+- ["P4Nuke7Caching", "deinit"]
+- !private ["P4Nuke7Caching", "subscript"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "sync"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "sync"]
+- !private ["V10Foundation4Data", "deinit"]
+- !private ["P4Nuke12DataDecoding", "decode"]
+- ["P4Nuke12DataDecoding", "deinit"]
+- ["P4Nuke11DataLoading", "deinit"]
+- !private ["P4Nuke11DataLoading", "loadData"]
+- ["CSo14DispatchObject", "init"]
+- !private ["CSo14DispatchObject", "sync"]
+- ["CSo13DispatchQueue", "deinit"]
+- ["CSo13DispatchQueue", "init"]
+- !private ["CSo13DispatchQueue", "sync"]
+- ["C4Nuke22DispatchQueueScheduler", "deinit"]
+- ["C4Nuke22DispatchQueueScheduler", "init"]
+- ["Ps9Equatable", "_code"]
+- ["Ps9Equatable", "_domain"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_getEmbeddedNSError"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "_userInfo"]
+- !private ["Ps9Equatable", "decodingFailed"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "process"]
+- !private ["Ps9Equatable", "processingFailed"]
+- !private ["Ps9Equatable", "sync"]
+- ["Ps9Equatable", ""]
+- ["OC4Nuke6Loader5Error", "=="]
+- ["OC4Nuke6Loader5Error", "_code"]
+- ["OC4Nuke6Loader5Error", "_domain"]
+- ["OC4Nuke6Loader5Error", "_getEmbeddedNSError"]
+- ["OC4Nuke6Loader5Error", "_toAnyHashable"]
+- ["OC4Nuke6Loader5Error", "_userInfo"]
+- ["OC4Nuke6Loader5Error", "decodingFailed"]
+- ["OC4Nuke6Loader5Error", "deinit"]
+- ["OC4Nuke6Loader5Error", "hashValue"]
+- ["OC4Nuke6Loader5Error", "processingFailed"]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_getEmbeddedNSError"]
+- ["Ps5Error", "_toAnyHashable"]
+- ["Ps5Error", "_userInfo"]
+- !private ["Ps5Error", "decodingFailed"]
+- ["Ps5Error", "hashValue"]
+- !private ["Ps5Error", "processingFailed"]
+- ["Ps5Error", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "_code"]
+- ["Ps8Hashable", "_domain"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_getEmbeddedNSError"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "_userInfo"]
+- !private ["Ps8Hashable", "decodingFailed"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "processingFailed"]
+- !private ["Ps8Hashable", "sync"]
+- ["Ps8Hashable", ""]
+- ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- ["C4Nuke6Loader", "AnyProcessor"]
+- ["C4Nuke6Loader", "Caching"]
+- ["C4Nuke6Loader", "CancellationToken"]
+- !private ["C4Nuke6Loader", "Data"]
+- ["C4Nuke6Loader", "DataDecoding"]
+- ["C4Nuke6Loader", "DataLoading"]
+- ["C4Nuke6Loader", "DispatchQueue"]
+- ["C4Nuke6Loader", "DispatchQueueScheduler"]
+- ["C4Nuke6Loader", "Error"]
+- ["C4Nuke6Loader", "Image"]
+- ["C4Nuke6Loader", "Promise"]
+- ["C4Nuke6Loader", "Request"]
+- ["C4Nuke6Loader", "Scheduler"]
+- ["C4Nuke6Loader", "Schedulers"]
+- ["C4Nuke6Loader", "Swift"]
+- !private ["C4Nuke6Loader", "URLResponse"]
+- ["C4Nuke6Loader", "cache"]
+- !private ["C4Nuke6Loader", "decode"]
+- ["C4Nuke6Loader", "decoder"]
+- ["C4Nuke6Loader", "deinit"]
+- ["C4Nuke6Loader", "init"]
+- ["C4Nuke6Loader", "loadImage"]
+- ["C4Nuke6Loader", "loader"]
+- ["C4Nuke6Loader", "makeProcessor"]
+- !private ["C4Nuke6Loader", "process"]
+- ["C4Nuke6Loader", "promise"]
+- !private ["C4Nuke6Loader", "queue"]
+- !private ["C4Nuke6Loader", "schedulers"]
+- ["P4Nuke7Loading", "CancellationToken"]
+- ["P4Nuke7Loading", "DispatchQueue"]
+- ["P4Nuke7Loading", "DispatchQueueScheduler"]
+- !private ["P4Nuke7Loading", "Error"]
+- ["P4Nuke7Loading", "Image"]
+- ["P4Nuke7Loading", "Promise"]
+- ["P4Nuke7Loading", "Request"]
+- !private ["P4Nuke7Loading", "Schedulers"]
+- ["P4Nuke7Loading", "URL"]
+- !private ["P4Nuke7Loading", "cache"]
+- !private ["P4Nuke7Loading", "decode"]
+- !private ["P4Nuke7Loading", "decoder"]
+- ["P4Nuke7Loading", "loadImage"]
+- !private ["P4Nuke7Loading", "loader"]
+- !private ["P4Nuke7Loading", "makeProcessor"]
+- !private ["P4Nuke7Loading", "process"]
+- !private ["P4Nuke7Loading", "promise"]
+- !private ["P4Nuke7Loading", "queue"]
+- !private ["P4Nuke7Loading", "schedulers"]
+- ["P4Nuke7Loading", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["VV4Nuke7Request18MemoryCacheOptions", "deinit"]
+- !private ["VV4Nuke7Request18MemoryCacheOptions", "readAllowed"]
+- !private ["VV4Nuke7Request18MemoryCacheOptions", "writeAllowed"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "sync"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "sync"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["CSo9OS_object", "init"]
+- !private ["CSo9OS_object", "sync"]
+- ["Sq", "deinit"]
+- !private ["P4Nuke10Processing", "process"]
+- ["C4Nuke7Promise", "deinit"]
+- !private ["C4Nuke7Promise", "init"]
+- !private ["C4Nuke7Promise", "then"]
+- ["V4Nuke7Request", "deinit"]
+- !private ["V4Nuke7Request", "init"]
+- !private ["V4Nuke7Request", "memoryCacheOptions"]
+- ["V4Nuke7Request", "processor"]
+- !private ["V4Nuke7Request", "urlRequest"]
+- ["P4Nuke9Scheduler", "deinit"]
+- !private ["P4Nuke9Scheduler", "execute"]
+- ["P4Nuke9Scheduler", "init"]
+- ["VC4Nuke6Loader10Schedulers", "DispatchQueue"]
+- ["VC4Nuke6Loader10Schedulers", "DispatchQueueScheduler"]
+- ["VC4Nuke6Loader10Schedulers", "Scheduler"]
+- ["VC4Nuke6Loader10Schedulers", "decoding"]
+- ["VC4Nuke6Loader10Schedulers", "deinit"]
+- ["VC4Nuke6Loader10Schedulers", "init"]
+- ["VC4Nuke6Loader10Schedulers", "processing"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["CSo7UIImage", "deinit"]
+- ["V10Foundation3URL", "deinit"]
+- ["V10Foundation10URLRequest", "deinit"]
+- !private ["CSo11URLResponse", "deinit"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "_code"]
+- ["Ps9_Hashable", "_domain"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_getEmbeddedNSError"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "_userInfo"]
+- !private ["Ps9_Hashable", "decodingFailed"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "processingFailed"]
+- !private ["Ps9_Hashable", "sync"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "V4Nuke12AnyProcessor"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- "Ps7CVarArg"
+- "P4Nuke7Caching"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "V10Foundation4Data"
+- "P4Nuke12DataDecoding"
+- "P4Nuke11DataLoading"
+- "CSo14DispatchObject"
+- "CSo13DispatchQueue"
+- "C4Nuke22DispatchQueueScheduler"
+- "Ps9Equatable"
+- "OC4Nuke6Loader5Error"
+- "Ps5Error"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "C4Nuke6Loader"
+- "P4Nuke7Loading"
+- "Ps25LosslessStringConvertible"
+- "VV4Nuke7Request18MemoryCacheOptions"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "CSo9OS_object"
+- "Sq"
+- !private "P4Nuke10Processing"
+- "C4Nuke7Promise"
+- "V4Nuke7Request"
+- "P4Nuke9Scheduler"
+- "VC4Nuke6Loader10Schedulers"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "CSo7UIImage"
+- "V10Foundation3URL"
+- "V10Foundation10URLRequest"
+- !private "CSo11URLResponse"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/prajaktakulkarni/Documents/Casper/Pods/Target Support Files/Nuke/Nuke-umbrella.h"
+- "/Users/prajaktakulkarni/Documents/Casper/Build/Intermediates/Pods.build/Debug-iphonesimulator/Nuke.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "7d6312a95f89a6fad764bf47a6bd8595"

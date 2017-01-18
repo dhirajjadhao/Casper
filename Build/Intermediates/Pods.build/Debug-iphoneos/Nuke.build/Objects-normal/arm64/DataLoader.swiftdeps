@@ -1,0 +1,341 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DataLoading"
+- "DataLoader"
+- "DataCaching"
+- "CachingDataLoader"
+provides-nominal:
+- "P4Nuke11DataLoading"
+- "C4Nuke10DataLoader"
+- "P4Nuke11DataCaching"
+- "C4Nuke17CachingDataLoader"
+provides-member:
+- ["P4Nuke11DataLoading", ""]
+- ["C4Nuke10DataLoader", ""]
+- ["P4Nuke11DataCaching", ""]
+- ["C4Nuke17CachingDataLoader", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "DataCaching"
+- "URLRequest"
+- "CachedURLResponse"
+- "AssignmentPrecedence"
+- "URLSessionConfiguration"
+- !private "URLCache"
+- !private "RateLimiter"
+- !private "OperationQueueScheduler"
+- "URLSession"
+- "CachingDataLoader"
+- "Promise"
+- "URLResponse"
+- !private "??"
+- !private "NSURLErrorUnknown"
+- "CancellationToken"
+- "AsyncScheduler"
+- !private "StringLiteralType"
+- !private "NSURLErrorDomain"
+- "Data"
+- !private "NSError"
+- "DataLoader"
+- "DataLoading"
+- !private "*"
+depends-member:
+- !private ["Ps9AnyObject", "CachedURLResponse"]
+- !private ["Ps9AnyObject", "DataLoader"]
+- !private ["Ps9AnyObject", "NSError"]
+- !private ["Ps9AnyObject", "NSURLErrorDomain"]
+- !private ["Ps9AnyObject", "NSURLErrorUnknown"]
+- !private ["Ps9AnyObject", "OperationQueueScheduler"]
+- !private ["Ps9AnyObject", "Promise"]
+- !private ["Ps9AnyObject", "RateLimiter"]
+- !private ["Ps9AnyObject", "URLCache"]
+- !private ["Ps9AnyObject", "URLSession"]
+- !private ["Ps9AnyObject", "URLSessionConfiguration"]
+- !private ["Ps9AnyObject", "cache"]
+- !private ["Ps9AnyObject", "cancel"]
+- !private ["Ps9AnyObject", "data"]
+- !private ["Ps9AnyObject", "dataTask"]
+- !private ["Ps9AnyObject", "default"]
+- !private ["Ps9AnyObject", "defaultConfiguration"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "loadData"]
+- !private ["Ps9AnyObject", "loader"]
+- !private ["Ps9AnyObject", "recover"]
+- !private ["Ps9AnyObject", "response"]
+- !private ["Ps9AnyObject", "resume"]
+- !private ["Ps9AnyObject", "scheduler"]
+- !private ["Ps9AnyObject", "session"]
+- !private ["Ps9AnyObject", "then"]
+- !private ["Ps9AnyObject", "urlCache"]
+- ["Ps9AnyObject", ""]
+- ["P4Nuke14AsyncScheduler", "deinit"]
+- !private ["P4Nuke14AsyncScheduler", "execute"]
+- !private ["P4Nuke14AsyncScheduler", "init"]
+- !private ["Ps7CVarArg", "cancel"]
+- !private ["Ps7CVarArg", "data"]
+- !private ["Ps7CVarArg", "dataTask"]
+- !private ["Ps7CVarArg", "default"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "response"]
+- !private ["Ps7CVarArg", "resume"]
+- !private ["Ps7CVarArg", "urlCache"]
+- !private ["CSo17CachedURLResponse", "data"]
+- !private ["CSo17CachedURLResponse", "deinit"]
+- !private ["CSo17CachedURLResponse", "init"]
+- !private ["CSo17CachedURLResponse", "response"]
+- !private ["C4Nuke17CachingDataLoader", "CachedURLResponse"]
+- ["C4Nuke17CachingDataLoader", "CancellationToken"]
+- ["C4Nuke17CachingDataLoader", "Data"]
+- ["C4Nuke17CachingDataLoader", "DataCaching"]
+- ["C4Nuke17CachingDataLoader", "DataLoading"]
+- ["C4Nuke17CachingDataLoader", "Promise"]
+- ["C4Nuke17CachingDataLoader", "URLRequest"]
+- ["C4Nuke17CachingDataLoader", "URLResponse"]
+- !private ["C4Nuke17CachingDataLoader", "cache"]
+- ["C4Nuke17CachingDataLoader", "deinit"]
+- ["C4Nuke17CachingDataLoader", "init"]
+- ["C4Nuke17CachingDataLoader", "loadData"]
+- !private ["C4Nuke17CachingDataLoader", "loader"]
+- !private ["V4Nuke17CancellationToken", "deinit"]
+- !private ["V4Nuke17CancellationToken", "register"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "cancel"]
+- !private ["Ps28CustomDebugStringConvertible", "data"]
+- !private ["Ps28CustomDebugStringConvertible", "dataTask"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "response"]
+- !private ["Ps28CustomDebugStringConvertible", "resume"]
+- !private ["Ps28CustomDebugStringConvertible", "urlCache"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "cancel"]
+- !private ["Ps23CustomStringConvertible", "data"]
+- !private ["Ps23CustomStringConvertible", "dataTask"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "response"]
+- !private ["Ps23CustomStringConvertible", "resume"]
+- !private ["Ps23CustomStringConvertible", "urlCache"]
+- !private ["V10Foundation4Data", "deinit"]
+- ["P4Nuke11DataCaching", "CachedURLResponse"]
+- ["P4Nuke11DataCaching", "CancellationToken"]
+- ["P4Nuke11DataCaching", "Promise"]
+- ["P4Nuke11DataCaching", "URLRequest"]
+- ["P4Nuke11DataCaching", "deinit"]
+- ["P4Nuke11DataCaching", "response"]
+- ["P4Nuke11DataCaching", "setResponse"]
+- ["C4Nuke10DataLoader", "AsyncScheduler"]
+- ["C4Nuke10DataLoader", "CancellationToken"]
+- ["C4Nuke10DataLoader", "Data"]
+- !private ["C4Nuke10DataLoader", "DataLoader"]
+- !private ["C4Nuke10DataLoader", "NSError"]
+- !private ["C4Nuke10DataLoader", "NSURLErrorDomain"]
+- !private ["C4Nuke10DataLoader", "NSURLErrorUnknown"]
+- !private ["C4Nuke10DataLoader", "OperationQueueScheduler"]
+- ["C4Nuke10DataLoader", "Promise"]
+- !private ["C4Nuke10DataLoader", "RateLimiter"]
+- !private ["C4Nuke10DataLoader", "URLCache"]
+- ["C4Nuke10DataLoader", "URLRequest"]
+- ["C4Nuke10DataLoader", "URLResponse"]
+- ["C4Nuke10DataLoader", "URLSession"]
+- ["C4Nuke10DataLoader", "URLSessionConfiguration"]
+- !private ["C4Nuke10DataLoader", "defaultConfiguration"]
+- ["C4Nuke10DataLoader", "deinit"]
+- ["C4Nuke10DataLoader", "init"]
+- ["C4Nuke10DataLoader", "loadData"]
+- !private ["C4Nuke10DataLoader", "scheduler"]
+- ["C4Nuke10DataLoader", "session"]
+- !private ["P4Nuke11DataLoading", "CachedURLResponse"]
+- ["P4Nuke11DataLoading", "CancellationToken"]
+- ["P4Nuke11DataLoading", "Data"]
+- !private ["P4Nuke11DataLoading", "DataLoader"]
+- !private ["P4Nuke11DataLoading", "NSError"]
+- !private ["P4Nuke11DataLoading", "NSURLErrorDomain"]
+- !private ["P4Nuke11DataLoading", "NSURLErrorUnknown"]
+- !private ["P4Nuke11DataLoading", "OperationQueueScheduler"]
+- ["P4Nuke11DataLoading", "Promise"]
+- !private ["P4Nuke11DataLoading", "RateLimiter"]
+- !private ["P4Nuke11DataLoading", "URLCache"]
+- ["P4Nuke11DataLoading", "URLRequest"]
+- ["P4Nuke11DataLoading", "URLResponse"]
+- !private ["P4Nuke11DataLoading", "URLSession"]
+- !private ["P4Nuke11DataLoading", "URLSessionConfiguration"]
+- !private ["P4Nuke11DataLoading", "cache"]
+- !private ["P4Nuke11DataLoading", "defaultConfiguration"]
+- ["P4Nuke11DataLoading", "deinit"]
+- ["P4Nuke11DataLoading", "loadData"]
+- !private ["P4Nuke11DataLoading", "loader"]
+- !private ["P4Nuke11DataLoading", "scheduler"]
+- !private ["P4Nuke11DataLoading", "session"]
+- ["P4Nuke11DataLoading", ""]
+- !private ["Ps9Equatable", "cancel"]
+- !private ["Ps9Equatable", "data"]
+- !private ["Ps9Equatable", "dataTask"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "response"]
+- !private ["Ps9Equatable", "resume"]
+- !private ["Ps9Equatable", "urlCache"]
+- !private ["Ps5Error", "deinit"]
+- !private ["Ps5Error", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "cancel"]
+- !private ["Ps8Hashable", "data"]
+- !private ["Ps8Hashable", "dataTask"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "response"]
+- !private ["Ps8Hashable", "resume"]
+- !private ["Ps8Hashable", "urlCache"]
+- !private ["Si", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "data"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "response"]
+- !private ["PSo9NSCopying", "cancel"]
+- !private ["PSo9NSCopying", "data"]
+- !private ["PSo9NSCopying", "default"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "response"]
+- !private ["PSo9NSCopying", "resume"]
+- !private ["PSo9NSCopying", "urlCache"]
+- !private ["CSo7NSError", "deinit"]
+- !private ["CSo7NSError", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "cancel"]
+- !private ["CSo8NSObject", "data"]
+- !private ["CSo8NSObject", "dataTask"]
+- !private ["CSo8NSObject", "default"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "response"]
+- !private ["CSo8NSObject", "resume"]
+- !private ["CSo8NSObject", "urlCache"]
+- !private ["PSo16NSObjectProtocol", "cancel"]
+- !private ["PSo16NSObjectProtocol", "data"]
+- !private ["PSo16NSObjectProtocol", "dataTask"]
+- !private ["PSo16NSObjectProtocol", "default"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "response"]
+- !private ["PSo16NSObjectProtocol", "resume"]
+- !private ["PSo16NSObjectProtocol", "urlCache"]
+- !private ["PSo14NSSecureCoding", "data"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "response"]
+- !private ["CSo8NSString", "init"]
+- !private ["C4Nuke23OperationQueueScheduler", "deinit"]
+- !private ["C4Nuke23OperationQueueScheduler", "init"]
+- ["Sq", "deinit"]
+- ["C4Nuke7Promise", "deinit"]
+- !private ["C4Nuke7Promise", "init"]
+- !private ["C4Nuke7Promise", "recover"]
+- !private ["C4Nuke7Promise", "then"]
+- !private ["C4Nuke11RateLimiter", "deinit"]
+- !private ["C4Nuke11RateLimiter", "init"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["CSo8URLCache", "deinit"]
+- !private ["CSo8URLCache", "init"]
+- ["V10Foundation10URLRequest", "deinit"]
+- !private ["CSo11URLResponse", "deinit"]
+- !private ["CSo10URLSession", "dataTask"]
+- ["CSo10URLSession", "deinit"]
+- !private ["CSo10URLSession", "init"]
+- !private ["CSo23URLSessionConfiguration", "default"]
+- ["CSo23URLSessionConfiguration", "deinit"]
+- !private ["CSo23URLSessionConfiguration", "urlCache"]
+- !private ["CSo18URLSessionDataTask", "cancel"]
+- !private ["CSo18URLSessionDataTask", "deinit"]
+- !private ["CSo18URLSessionDataTask", "resume"]
+- !private ["CSo14URLSessionTask", "cancel"]
+- !private ["CSo14URLSessionTask", "resume"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "cancel"]
+- !private ["Ps9_Hashable", "data"]
+- !private ["Ps9_Hashable", "dataTask"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "response"]
+- !private ["Ps9_Hashable", "resume"]
+- !private ["Ps9_Hashable", "urlCache"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "P4Nuke14AsyncScheduler"
+- !private "Ps7CVarArg"
+- !private "CSo17CachedURLResponse"
+- "C4Nuke17CachingDataLoader"
+- !private "V4Nuke17CancellationToken"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "V10Foundation4Data"
+- "P4Nuke11DataCaching"
+- "C4Nuke10DataLoader"
+- "P4Nuke11DataLoading"
+- !private "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "Si"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo7NSError"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "C4Nuke23OperationQueueScheduler"
+- "Sq"
+- "C4Nuke7Promise"
+- !private "C4Nuke11RateLimiter"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "CSo8URLCache"
+- "V10Foundation10URLRequest"
+- !private "CSo11URLResponse"
+- "CSo10URLSession"
+- "CSo23URLSessionConfiguration"
+- !private "CSo18URLSessionDataTask"
+- !private "CSo14URLSessionTask"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/prajaktakulkarni/Documents/Casper/Pods/Target Support Files/Nuke/Nuke-umbrella.h"
+- "/Users/prajaktakulkarni/Documents/Casper/Build/Intermediates/Pods.build/Debug-iphoneos/Nuke.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "cbc8af72bcb3ecc2f7d4ac20351e765a"
