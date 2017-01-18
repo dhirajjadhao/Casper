@@ -1,0 +1,9 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "a099e680b9f400b33a72da96acf86b0d"
+build_time: [538079320, 523572000]
+inputs:
+  "/Users/prajaktakulkarni/Documents/Casper/Casper/ActivityCell.swift": [536232416, 0]
+  "/Users/prajaktakulkarni/Documents/Casper/Casper/Casper.swift": [538073065, 0]
+  "/Users/prajaktakulkarni/Documents/Casper/Casper/GIFActivityCell.swift": [536424901, 0]
+  "/Users/prajaktakulkarni/Documents/Casper/Casper/ImageCell.swift": [536568876, 0]
+  "/Users/prajaktakulkarni/Documents/Casper/Casper/QRCodeCell.swift": [536591833, 0]
